@@ -3377,8 +3377,7 @@ tbody.collapse.show {
 
 .nav-tabs .nav-link {
     border: 1px solid transparent;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem
+    
 }
 
 .nav-tabs .nav-link:focus,
@@ -3412,13 +3411,26 @@ tbody.collapse.show {
 .nav-pills .nav-link.active,
 .show>.nav-pills .nav-link {
     color: #fff;
-    background-color: #007bff
+    background-color: #388c3c
 }
 
 .nav-fill .nav-item {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     text-align: center
+}
+
+.nav-item2{-ms-flex-preferred-size:0;
+    flex-basis:0;
+    -webkit-box-flex:1;
+    -ms-flex-positive:1;
+    flex-grow:1;
+    text-align:center}
+
+  .nav-item2{
+    color: #495057;
+    background-color: #fff;
+    border-color: #ddd #ddd #fff
 }
 
 .nav-justified .nav-item {
